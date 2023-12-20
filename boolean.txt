@@ -1,0 +1,5 @@
+ parameters {
+       booleanparam(name: 'test_boolean', defaultvalue: true, description: '')
+   }
+
+echo "hello ${params.test_boolean}"
